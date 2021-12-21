@@ -1,0 +1,12 @@
+model_0 was generated in localize of PyTom commit b81f837
+
+These original files removed to save space:
+- occupancy_mask.mrc
+- class_mask.mrc
+- particle_locations.mrc
+- grandmodel.mrc
+- grandmodel_imag.mrc
+- projections/*.mrc
+
+Only the files providing ground truth to bin2 reconstruction, and the (noisefree) projections were kept.
+
