@@ -1,0 +1,16 @@
+background 0
+4V94_fixed 1
+4CR2 2
+1QVR 3
+1BXN 4
+3CF3 5
+1U6G 6
+3D2F 7
+2CG9 8
+3H84 9
+3GL1 10
+3QM1 11
+1S3X 12
+5MRC 13
+vesicles 14
+fiducials 15

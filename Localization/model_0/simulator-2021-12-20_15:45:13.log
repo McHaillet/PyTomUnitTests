@@ -1,0 +1,59 @@
+INFO:root:Config:
+INFO:root:[General]
+INFO:root:outputfolder = .
+INFO:root:mode = TiltSeries
+INFO:root:device = CPU
+INFO:root:nodes = 3
+INFO:root:modelid = 0
+INFO:root:seed = 0
+INFO:root:pixelsize = 5
+INFO:root:oversampling = 2
+INFO:root:solventconstant = 4.5301
+INFO:root:absorptioncontrast = True
+INFO:root:voltage = 300
+INFO:root:
+INFO:root:[GenerateModel]
+INFO:root:particlefolder = ./particles
+INFO:root:models = ['4V94_fixed', '4CR2', '1QVR', '1BXN', '3CF3', '1U6G', '3D2F', '2CG9', '3H84', '3GL1', '3QM1', '1S3X', '5MRC']
+INFO:root:membranemodels = ['bilayer_389x371x270nm', 'bilayer_326x252x241nm', 'bilayer_318x310x310nm', 'bilayer_235x223x212nm']
+INFO:root:size = 1024
+INFO:root:placementsize = 1024
+INFO:root:thickness = 180
+INFO:root:numberofparticles = [2300]
+INFO:root:numberofmarkers = [7, 14]
+INFO:root:numberofmembranes = [3, 5]
+INFO:root:sigmamotionblur = 4.0
+INFO:root:
+INFO:root:[Microscope]
+INFO:root:camera = K2SUMMIT
+INFO:root:beamdamagesnr = 10
+INFO:root:defocus = 3.5
+INFO:root:electrondose = [100, 120]
+INFO:root:sphericalaberration = 2.7
+INFO:root:chromaticaberration = 2.7
+INFO:root:energyspread = 0.7
+INFO:root:illuminationaperture = 0.030
+INFO:root:objectivediameter = 100
+INFO:root:focaldistance = 4.7
+INFO:root:astigmatism = 0
+INFO:root:astigmatismangle = 0
+INFO:root:
+INFO:root:[TiltSeries]
+INFO:root:metafile = ./model_0.meta
+INFO:root:imagesize = 1024
+INFO:root:multislicestep = 5
+INFO:root:translationalshift = [3,10]
+INFO:root:
+INFO:root:[TomogramReconstruction]
+INFO:root:weighting = -1
+INFO:root:binning = 2
+INFO:root:filterprojections = False
+INFO:root:usescaledprojections = False
+INFO:root:
+INFO:root:Values of parameters that we randomly vary per simulation (only for generate model and generate projections):
+INFO:root:model thickness = 180.00nm (adjusted to be an even number of voxels)
+INFO:root:# of particles = 2300
+INFO:root:# of markers = 11
+INFO:root:# of membranes = 3
+INFO:root:defocus = 3.50um
+INFO:root:electron dose = 110.97627007854649 e-/A^2
