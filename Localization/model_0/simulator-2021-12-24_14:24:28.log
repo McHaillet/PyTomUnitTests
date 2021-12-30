@@ -23,6 +23,7 @@ INFO:root:numberofparticles = [2300]
 INFO:root:numberofmarkers = [7, 14]
 INFO:root:numberofmembranes = [3, 5]
 INFO:root:sigmamotionblur = 4.0
+INFO:root:mirror = No
 INFO:root:
 INFO:root:[Microscope]
 INFO:root:camera = K2SUMMIT
